@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href="homePage.css">
+<title>Add new player</title>
+</head>
+<body>
+<form action="addNewServlet">
+<h1>Add new player in the team</h1>
+<p>Enter the name of the player</p>
+<input type="text" name="name">
+<p>Enter number of matches played by the player</p>
+<input type="number" name="m_played">
+<p>Enter number of runs scored by the player</p>
+<input type="number" name="r_scored">
+<p>Enter number of wicket's taken by the player</p>
+<input type="number" name="w_taken">
+<p>Enter number of out on zero's by the player</p>
+<input type="number" name="o_zero">
+<p> Choose the type of the player </p>
+<input type='radio' value='Batsman' name='t_player'>Batsman
+<input type='radio' value='Bowler' name='t_player'>Bowler
+<input type='radio' value='AllRounder' name='t_player'>AllRounder
+<input type='radio' value='WicketKeeper' name='t_player'>WicketKeeper
+<input type="submit" value="Add player">
+</form>
+</body>
+</html>
